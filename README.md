@@ -14,7 +14,7 @@ Notes.
    ========
    first computer - ENIAC (Electronic Numeric Integrator and Computer)
    first programmer - a women (jean jennings bartik)
-   first languages - assembly -> short code (1949) -> COBOL, FORTRON, LISP (1950) -> C(1980) -> Python (1995) -> Java (1995)
+   first languages - assembly -> short code (1949) -> COBOL, FORTRON, LISP (1950) -> C(1980) -> Python (1991) -> Java (1995)
    Different catogories of computer science.
     Computer networking
     Cyber security
@@ -25,8 +25,23 @@ Notes.
     Fun activity
     Hack facebook. 
     get  the public ip of the servce and paste it action=http://publicip:8080/login
+   
+ 4. Introduction to Python
+    By Gudio van Rossum
+    Named after Monty Python's Flying Circus comedy program (has 4 seasons, telecased in 1969)
+    High Level, Structured and open source language
+    interpreted programming language(Automatically compiled into bytecode before execution by an interpreter)
+    interpreted programming vs compile programming
+     - by example - https://guide.freecodecamp.org/computer-science/compiled-versus-interpreted-languages/
+     - in compiled languages the source code is tranlated directly to bytecode(which is understadable by hardware)
+      ex: c, c++, Go
+      you have to compile first before run.
+     - In interpreted language the source is tranlated to bytecode line by line by an inbuilt interpreter.
+       you can directly run the program. Ex : Python
     
- 4.Setting up development environment.
+ 5.Setting up development environment.
    Linux
    Windows
    differences of python versions 2,3 (https://www.guru99.com/python-2-vs-python-3.html)
+   
+   
