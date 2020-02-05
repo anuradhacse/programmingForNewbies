@@ -30,6 +30,13 @@ Notes.
  4. Introduction to programming
       - computers only understand binary - https://www.youtube.com/watch?v=Xpk67YzOn5w
       - https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c/
+      
+      - convert programs to 1/0 s (machine code, binary, app) 
+      4 types of translators
+       1.compiler Ex: c,  c++
+       2.interpreter Ex: python
+       3.Hybrid Translator (combination of compiler and interpreter) Ex: Java
+       4.Assembler (convert low level languages to machine code)
    
  4. Introduction to Python
     By Gudio van Rossum
