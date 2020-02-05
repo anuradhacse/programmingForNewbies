@@ -19,15 +19,9 @@ Notes.
     Computer networking
     Cyber security
     Data science / Artifial Intelligent
-    Database and Information
+    Database and Information    
     
- 3. Brainstorm session.
-    Fun activity
-    Hack facebook. 
-    get  the public ip of the servce and paste it action=http://publicip:8080/login
-    
-    
- 4. Introduction to programming
+4. Introduction to programming
       - computers only understand binary - https://www.youtube.com/watch?v=Xpk67YzOn5w
       - https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c/
       
@@ -37,8 +31,19 @@ Notes.
        2.interpreter Ex: python
        3.Hybrid Translator (combination of compiler and interpreter) Ex: Java
        4.Assembler (convert low level languages to machine code)
+       
+       Introduce
+      - command line interface (CLI) , aka terminal.
+      - text editor
+      
    
- 4. Introduction to Python
+5. Brainstorm session.
+    Fun activity
+    Hack facebook. 
+    get  the public ip of the servce and paste it action=http://publicip:8080/login
+    
+    
+6. Introduction to Python
     By Gudio van Rossum
     Named after Monty Python's Flying Circus comedy program (has 4 seasons, telecased in 1969)
     High Level, Structured and open source language, cross platform, Huge community, Large eco system
@@ -49,7 +54,7 @@ Notes.
        - Data analysis, web development, mobile development, AL/ML, automation
             
     
- 5.Setting up development environment.
+7.Setting up development environment.
    Linux
    Windows
    differences of python versions 2,3 (https://www.guru99.com/python-2-vs-python-3.html)
@@ -65,6 +70,21 @@ Notes.
       you have to compile first before run.
      - In interpreted language the source is tranlated to bytecode line by line by an inbuilt interpreter.
        you can directly run the program. Ex : Python
+       
+     Create a python file from terminal an run it using python.
+     print 'Hello Srilanka'
+     
+     Do the same with IDLE
+     
+     Inclass
+        ----------
+        QUIZ - What basic tools do you need to start programming?
+               What command would you use for the following in bash (CLI)?
+               Check your current directory
+               Change to a directory named ‘bin’ (bin is in your current directory)
+               make a new directory called ‘lib’
+               create a new file called ‘book.py’
+               list all the contents the current directory
    
    
    
