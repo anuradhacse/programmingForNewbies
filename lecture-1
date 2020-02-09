@@ -8,12 +8,15 @@
      python is very popular language, used for multi purpose
        - Data analysis, web development, mobile development, AL/ML, automation
        
+     Applications written in python
+     Ex: youtube, dropbox, reddit, Instagram, Pinterest
+       
 2. Introduction to command line interface.(cli)
      
      Inclass
         ----------
         QUIZ - What basic tools do you need to start programming?
-                  - A computer, a text editor, the shell(terminal), and a compiler/interpreter
+                  - A computer, a text editor, the shell(terminal, cli), and a compiler/interpreter
                
                What command would you use for the following in bash (CLI)?
                Check your current directory - pwd
@@ -21,6 +24,15 @@
                make a new directory called ‘lib’ - mkdir lib
                create a new file called ‘book.py’ - touch book.py
                list all the contents the current directory - ls
+               
+      Terminology
+      
+      Source code - file which contain our code. (aka program, code)
+      file extention for different languages.
+      example.py
+      example.java
+      example.php
+      example.pl - PERL language
 
 3.Setting up development environment.
    Linux
@@ -44,3 +56,50 @@
      
      Do the same with IDLE
      
+     Extra - https://realpython.com/python-first-steps/#1-what-is-python
+     
+  4. keywords in python.  
+  
+  Reserved words used in python.(https://www.programiz.com/python-programming/keyword-list)
+  
+  >> import keyword
+  >> print(keyword.kwlist)
+  'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'exec', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'not', 'or', 'pass', 'print', 'raise', 'return', 'try', 'while', 'with', 'yield'
+  
+  cant use these for varibale name, function names or any other identifier
+  
+  In java keyword set is much bigger - (int, long ,  string ..)
+  
+  5. Identifiers 
+    
+    words identified by you for naming variables, functions, the programmer. You can't use keywords as identifies.
+  
+    NOTES : 
+    identifier name starts with A to Z or a to z or _
+    followed by zero or more letters, underscores and digits (0 to 9)
+    
+    puctuation characters are not allowed - @, $, and % are not allowed (# can be used)
+     
+    Identifiers are case sensitive.
+    Ex : myName and myname are two different identifiers
+    
+    QUIZ 1 - identify keywords and identifiers
+    
+    name = "Anuradha"
+    print name
+    
+    QUIZ 2  - select invalid identifiers
+    
+    1. myName 
+    2. _myName
+    3. ___myname
+    4.123myname
+    5. !myname
+    6. MyNaME
+    7. MyNaME@$
+    8. MyName#
+    9.!Myname__
+    10 for
+    
+    
+    
