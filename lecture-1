@@ -1,1 +1,46 @@
+1. Introduction to Python
+    By Gudio van Rossum
+    Named after Monty Python's Flying Circus comedy program (has 4 seasons, telecased in 1969)
+    High Level, Structured and open source language, cross platform, Huge community, Large eco system
+    
+    interpreted programming language(Automatically compiled into bytecode before execution by an interpreter)
+       
+     python is very popular language, used for multi purpose
+       - Data analysis, web development, mobile development, AL/ML, automation
+       
+2. Introduction to command line interface.(cli)
+     
+     Inclass
+        ----------
+        QUIZ - What basic tools do you need to start programming?
+                  - A computer, a text editor, the shell(terminal), and a compiler/interpreter
+               
+               What command would you use for the following in bash (CLI)?
+               Check your current directory - pwd
+               Change to a directory named ‘bin’ (bin is in your current directory) - cd bin
+               make a new directory called ‘lib’ - mkdir lib
+               create a new file called ‘book.py’ - touch book.py
+               list all the contents the current directory - ls
 
+3.Setting up development environment.
+   Linux
+   Windows
+   differences of python versions 2,3 (https://www.guru99.com/python-2-vs-python-3.html)
+   
+   pythons has 2 major versions (not backward compatible)
+      -python 2
+      -python 3
+      
+   interpreted programming vs compile programming
+     - by example - https://guide.freecodecamp.org/computer-science/compiled-versus-interpreted-languages/
+     - in compiled languages the source code is tranlated directly to bytecode(which is understadable by hardware)
+      ex: c, c++, Go
+      you have to compile first before run.
+     - In interpreted language the source is tranlated to bytecode line by line by an inbuilt interpreter.
+       you can directly run the program. Ex : Python
+       
+     Create a python file from terminal an run it using python.
+     print 'Hello Srilanka'
+     
+     Do the same with IDLE
+     
