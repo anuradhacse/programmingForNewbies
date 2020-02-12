@@ -6,10 +6,26 @@
     interpreted programming language(Automatically compiled into bytecode before execution by an interpreter)
        
      python is very popular language, used for multi purpose
-       - Data analysis, web development, mobile development, AL/ML, automation
+       - Data analysis, web development, mobile development, AI/ML, automation
        
      Applications written in python
      Ex: youtube, dropbox, reddit, Instagram, Pinterest
+     
+    
+    pythons has 2 major versions (not backward compatible)
+      -python 2
+      -python 3 (introduced in 2008)
+      
+      python 3 introduced to fix issues in python 2
+      
+      Differences of python versions 2,3 (https://www.guru99.com/python-2-vs-python-3.html)
+      
+      python 3                  python2 
+      
+      print("Hello")            print "hello"
+      new range() function      xRange() function for iterations
+      for iteration
+      
        
 2. Introduction to command line interface.(cli)
      
@@ -37,11 +53,6 @@
 3.Setting up development environment.
    Linux
    Windows
-   differences of python versions 2,3 (https://www.guru99.com/python-2-vs-python-3.html)
-   
-   pythons has 2 major versions (not backward compatible)
-      -python 2
-      -python 3
       
    interpreted programming vs compile programming
      - by example - https://guide.freecodecamp.org/computer-science/compiled-versus-interpreted-languages/
