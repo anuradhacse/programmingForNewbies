@@ -26,6 +26,19 @@
       new range() function      xRange() function for iterations
       for iteration
       
+      Course structure
+      
+       1. Background
+       2. Introduction to Python
+       3. Operators and Expressions in Python
+       4. "Selection" Control structures in python
+       5. Loop Control structures
+       6. Lists
+       7. Numbers
+       8. Strings
+       9. Functions
+       10. Handling files
+       11. Additional Section - Software Enginnering introduction
        
 2. Introduction to command line interface.(cli)
      
@@ -53,21 +66,16 @@
 3.Setting up development environment.
    Linux
    Windows
-      
-   interpreted programming vs compile programming
-     - by example - https://guide.freecodecamp.org/computer-science/compiled-versus-interpreted-languages/
-     - in compiled languages the source code is tranlated directly to bytecode(which is understadable by hardware)
-      ex: c, c++, Go
-      you have to compile first before run.
-     - In interpreted language the source is tranlated to bytecode line by line by an inbuilt interpreter.
-       you can directly run the program. Ex : Python
-       
-     Create a python file from terminal an run it using python.
-     print 'Hello Srilanka'
+   
+   There are two modes of running python 
+   interactive mode, normal mode (save a file and run it)
+
+   Create a python file from terminal an run it using python.
+   print 'Hello Srilanka'
      
-     Do the same with IDLE
+   Do the same with IDLE
      
-     Extra - https://realpython.com/python-first-steps/#1-what-is-python
+   Extra - https://realpython.com/python-first-steps/#1-what-is-python
      
   4. keywords in python.  
   
@@ -112,5 +120,31 @@
     9.!Myname__
     10 for
     
+    Basic Data Types in Python
     
-    
+        ##Numbers (int, float, complex)
+        ##String
+        ##List
+        ##Tuple
+        ##Dictionary
+   
+   type () command
+   ================
+   
+   type (1)
+   type (1.0)
+   type ("1")
+   type (1 + 2j)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
