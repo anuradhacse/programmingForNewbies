@@ -3,6 +3,7 @@
   Reserved words used in python.(https://www.programiz.com/python-programming/keyword-list)
   
   >> import keyword
+  
   >> print(keyword.kwlist)
   'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'exec', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'not', 'or', 'pass', 'print', 'raise', 'return', 'try', 'while', 'with', 'yield'
   
@@ -44,15 +45,15 @@
     Basic Data Types in Python
     
         ##Numbers (int, float, complex)
-        ##String
+        ##String ('anuradha', "anuradha", '''aaaa''', """ssss""")
         ##List
         ##Tuple
         ##Dictionary
    
    type () command
    ================
-   
-   type (1)
-   type (1.0)
-   type ("1")
-   type (1 + 2j)
+  
+   type (1) - int
+   type (1.0) - float
+   type ("1") - string
+   type (1 + 2j) - complex
