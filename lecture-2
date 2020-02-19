@@ -31,6 +31,18 @@
     name = "Anuradha"
     print (name)
     
+         QUIZ 2  - select invalid identifiers
+        1. myName 
+        2. _myName
+        3. ___myname
+        4.123myname
+        5. !myname
+        6. MyNaME
+        7. MyNaME@$
+        8. MyName#
+        9.!Myname__
+        10 for
+    
   4. Basic Data Types in Python
     
         ##Numbers (int, float, complex)
@@ -75,40 +87,13 @@
       (f). The absolute value of difference between the heights of Geetha (54 inches) and Kasun (57 inches)
       (g). The lowest price among the following prices: Rs. 34.99, Rs. 29.95, and Rs. 31.50
     
-    
-  6. Python Objects
-  
-     a = 3
-     b = 3 
-     myVar = 'one sentence'
-     
-     a is a varible (identifier) 
-     
-     Object has following values 
-     
-     identity - an address in memory - id(a)
-     type - type (a) int
-     value - 3
-    
-     a is b -> True
-     a and b point to same object.
-     
-     naming conventions of variables - should be meaning full and identifier rules. start with A-Z, a-z or _
-   
-     QUIZ 2  - select invalid identifiers
-        1. myName 
-        2. _myName
-        3. ___myname
-        4.123myname
-        5. !myname
-        6. MyNaME
-        7. MyNaME@$
-        8. MyName#
-        9.!Myname__
-        10 for
-    
-    Getting user inputs  (do this in files, not in shell)
+   6.Strings (do this in files, not in shell)
     ====================
+    
+    str = 'Hello World!'
+    str* 2
+    str + "TEST"
+    
     
     Python 2 
     ===========
@@ -129,7 +114,35 @@
     x = input ("name:")
     <type 'str'>  - default type is str
     can convert using int()
+    
+    QUIZ
+    What's your university ? moratuwa
+    How long will you be there ? 4 years
+    
+    out put : you will be in moratuwa for 4 years.
+    
+    print age name in same line
+      print("Good Morning!", end = '')
+      print("What a wonderful day!")
 
+  6. Python Objects
+  
+     a = 3
+     b = 3 
+     myVar = 'one sentence'
+     
+     a is a varible (identifier) 
+     
+     Object has following values 
+     
+     identity - an address in memory - id(a)
+     type - type (a) int
+     value - 3
+    
+     a is b -> True
+     a and b point to same object.
+     
+     naming conventions of variables - should be meaning full and identifier rules. start with A-Z, a-z or _
     
     
     
