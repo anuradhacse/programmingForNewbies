@@ -1,4 +1,6 @@
-4. keywords in python.  
+1. Interactive mode (use python interpreter) / Normal mode (create a file and run file)
+
+2. keywords in python.  
   
   Reserved words used in python.(https://www.programiz.com/python-programming/keyword-list)
   
@@ -11,9 +13,9 @@
   
   In java keyword set is much bigger - (int, long ,  string ..)
   
-  5. Identifiers 
+3. Identifiers 
     
-    words identified by you for naming variables, functions, the programmer. You can't use keywords as identifies.
+    words identified by you for naming variables, functions. You can't use keywords as identifies.
   
     NOTES : 
     identifier name starts with A to Z or a to z or _
@@ -27,7 +29,7 @@
     QUIZ 1 - identify keywords and identifiers
     
     name = "Anuradha"
-    print name
+    print (name)
     
     QUIZ 2  - select invalid identifiers
     
@@ -42,11 +44,11 @@
     9.!Myname__
     10 for
     
-    Basic Data Types in Python
+  4. Basic Data Types in Python
     
         ##Numbers (int, float, complex)
         ##String ('anuradha', "anuradha", '''aaaa''', """ssss""")
-        ##List
+        ##List [1, 2, 3, 4]
         ##Tuple
         ##Dictionary
    
@@ -57,3 +59,37 @@
    type (1.0) - float
    type ("1") - string
    type (1 + 2j) - complex
+   
+   
+  5. Arithmatic operations
+  
+     addition (3+7)
+     substraction (7-2)
+     multiplication (3 * 7)
+     division (21/7)
+     exponential (exponentiation sign) 2 ** 3 = 8
+     
+     floor division (aka integer division) - 7 // 3 = 2
+     integer remainder - 7 % 3 = 1
+     
+     inbuilt functions useful
+
+     abs(-2)
+     min ()
+     max ()
+     
+     quiz
+     -----
+      (a). The sum of the first 5 positive integers
+      (b). The average age of Geetha (age 23), Kasun (age 19), and Fathima (age 31)
+      (c). The number of times 73 goes into 403
+      (d). The remainder when 403 is divided by 73
+      (e). 2 to the 10th power
+      (f). The absolute value of difference between the heights of Geetha (54 inches) and Kasun (57 inches)
+      (g). The lowest price among the following prices: Rs. 34.99, Rs. 29.95, and Rs. 31.50
+    
+    
+    
+    
+    
+    
