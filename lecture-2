@@ -90,6 +90,35 @@
     
     
     
+    Getting user inputs 
+    ====================
+    
+    Python 2 
+    ===========
+    
+    x = raw_input("What's your name? ")
+    type(x)
+    <type 'str'> (default type is string)
+    can convert using int()
+    
+    x = input ("age:")
+    <type 'int'>  - default type is int
+    
+      Python 3 
+    ===========
+    
+    x = raw_input("What's your name? ") - this doesnt work in python 3
+    
+    x = input ("name:")
+    <type 'str'>  - default type is str
+    can convert using int()
+
+    
+    
+    
+
+
+    
     
     
     
