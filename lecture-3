@@ -1,3 +1,18 @@
+Exersize :
+https://www.w3resource.com/python-exercises/python-basic-exercises.php
+
+Q1) print following
+
+Twinkle, twinkle, little star,
+	How I wonder what you are! 
+		Up above the world so high,   		
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are!
+  
+Q2) Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them
+  
+  
 1. The Python variable naming rules are:
   • Must begin with a letter (a - z, A - Z) or underscore (_).
   • Other characters can be letters, numbers or _ only.
@@ -15,8 +30,22 @@
   >> myvar 
      undefined
   
+ 2. Conversion of data types.
+    int -> str  
+    float -> int (Ex: 1.0 -> 1)
+    int -> flaot (Ex: 1.98-> 1)
+    float -> str
+    str -> int   - valid scenarios / invalid scenarios
+    str -> float  - valid scenarios / invalid scenarios
+    
+ 3. String concatnation
+ 
+ str + int (invalid)
+ str * int (valid)
+ 
+ 4. Lists
 
-6. Python Objects
+3. Python Objects
 
      Object has following values 
      
@@ -37,3 +66,4 @@
      now b point to different object
   
      a is b -> False
+
