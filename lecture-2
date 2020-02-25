@@ -125,24 +125,7 @@
       print("Good Morning!", end = '')
       print("What a wonderful day!")
 
-  6. Python Objects
   
-     a = 3
-     b = 3 
-     myVar = 'one sentence'
-     
-     a is a varible (identifier) 
-     
-     Object has following values 
-     
-     identity - an address in memory - id(a)
-     type - type (a) int
-     value - 3
-    
-     a is b -> True
-     a and b point to same object.
-     
-     naming conventions of variables - should be meaning full and identifier rules. start with A-Z, a-z or _
     
     
     
