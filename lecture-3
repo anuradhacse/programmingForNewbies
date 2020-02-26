@@ -12,7 +12,12 @@ Twinkle, twinkle, little star,
   
 Q2) Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them
   
-  
+ Q3) Write a Python program which accepts the radius of a circle from the user and compute the area. Go to the editor
+Sample Output :
+r = 1.1
+Area = 3.8013271108436504
+
+
 1. The Python variable naming rules are:
   • Must begin with a letter (a - z, A - Z) or underscore (_).
   • Other characters can be letters, numbers or _ only.
@@ -63,6 +68,9 @@ b = []
 b.extend("Helloworld")
 print (b)
 
+exersizes
+=========
+https://www.w3resource.com/python-exercises/list/
 3. Python Objects
 
      Object has following values 
