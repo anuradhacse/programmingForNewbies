@@ -44,6 +44,24 @@ Q2) Write a Python program which accepts the user's first and last name and prin
  str * int (valid)
  
  4. Lists
+ 
+ why lists.? you can store many values in data structure easily.
+ store 10 friends names using variables
+ store friends names with list
+ 
+ list can have different types of values - Heterogeneous structure (ex: strings , lists, objects, lists). 
+ 
+ support mulitidimentional lists (list inside lists)
+	 list = [ 'abcd', 786 , 2.23, 'john', 70.2 , ['a', 1]]
+	 print (list[5][0])
+ 
+ errors - list index out of range
+ when trying to access a element which is not in the list
+
+QUIZ - make helloworld string into character list
+b = []
+b.extend("Helloworld")
+print (b)
 
 3. Python Objects
 
