@@ -14,6 +14,8 @@ print (str.remove('H'))
 print (str.append('H'))
 print (str.insert('H'))
 
+cant do - str[2] ='Y' - 'str' object does not support item assignment
+
 3. Python Objects
 
 Immutable objects and mutable objects
@@ -27,6 +29,7 @@ Immutable objects and mutable objects
      type - type (a) int
      value - 3
      
+     Immutable objects (Numbers and string)
      a = 3
      b = 3 
      
@@ -40,20 +43,55 @@ Immutable objects and mutable objects
      now b point to different object
   
      a is b -> False
+     
+     In string you can't change the value after defined the string
+     
+     str = 'Hello'
+     str[0] = 'Y' ---> TypeError: 'str' object does not support item assignment
+     
+     str = 'Hello'
+     str[0] = 'Y' ---> TypeError: 'str' object does not support item assignment
+     
+     Mutables objects (Lists, Dictionaries)
+     
+     list = ['1',2]
+     print (id(list))
+
+     list.append('abc')
+     list[2] ='new'
+     print(id)
+     
+python operators doc - http://doc.hc2.ch/python3/library/operator.html
+
+Boolean operators
+===============
+
+==   - equals
+
+!=  -  not equals
+
+>   - greater than
   
-operators
-==========
-Logical
+<  - less than
+
+>= greater than or equal
+
+<= less than or equal
+
+Translate the following statements into Python Boolean expressions and evaluate them:
+(a). The sum of 2 and 2 is less than 4.
+(b). The value of 7 // 3 is equal to 1 + 1.
+(c). The sum of 3 squared and 4 squared is equal to 25.
+(d). The sum of 2, 4, and 6 is greater than 12.
+(e). 1, 387 is divisible by 19.
+(f). 31 is even.
+(g). The lowest price among Rs. 34.99, Rs. 29.95, and Rs.31.50 is less than Rs.30.00.
+
+
+Logical oprators
+=================
 and, or, not
 
-Assignment
-= += -+ *= /= %= **=
-
-comparison operations
-== != <> > < >= <=
-
-assignment operations
-= += -+ *= /= %= **=
 
 if else loop
 --------------
