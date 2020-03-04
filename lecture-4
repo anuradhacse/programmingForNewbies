@@ -145,8 +145,25 @@ below 35 - F
 
 ex 2 - if below discount price, then show you have no discount
 
-ex 3 - calculator (+, -, /, * , ** )
+ex 3
+
+A car increases its velocity from u ms-1 to v ms-1 within t seconds. Write a program to
+compute and display the acceleration, assuming u, v and t are integers and given as input.
+The relationship between a, u, v and t can be given as v = u + at . Therefore, acceleration can be found
+by the equation
+t
+v u
+a
+−
+= . Note that users can input any values to the program. Therefore to find the
+correct acceleration t has to be non-zero and positive. So our program should make sure it only accepts
+correct inputs. The following Program-4.4 computes the acceleration given u, v and t
+
+
+ex 4(Home work) - calculator (+, -, /, * , ** )
 
 1 + 2 -> 3
 2 - 3 = -1
 4/2 = 1
+
+
