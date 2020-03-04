@@ -67,29 +67,3 @@ QUIZ - make helloworld string into character list
 b = []
 b.extend("Helloworld")
 print (b)
-
-exersizes
-=========
-https://www.w3resource.com/python-exercises/list/
-3. Python Objects
-
-     Object has following values 
-     
-     identity - an address in memory - id(a)
-     type - type (a) int
-     value - 3
-     
-     a = 3
-     b = 3 
-     
-     id (a)
-     id (b)
-    
-     a is b -> True
-     a and b point to same object.
-     
-     b = 5
-     now b point to different object
-  
-     a is b -> False
-
