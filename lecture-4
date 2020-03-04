@@ -1,0 +1,42 @@
+1. String as a array 
+
+str = 'Hello World!'
+
+print (str[:3])
+print (str*2)
+print (str.index('H'))
+print (len(str))
+
+doesn't support all function which worked for lists.(can't change a string)
+
+print (str.extend('H'))
+print (str.remove('H'))
+print (str.append('H'))
+print (str.insert('H'))
+
+3. Python Objects
+
+     Object has following values 
+     
+     identity - an address in memory - id(a)
+     type - type (a) int
+     value - 3
+     
+     a = 3
+     b = 3 
+     
+     id (a)
+     id (b)
+    
+     a is b -> True
+     a and b point to same object.
+     
+     b = 5
+     now b point to different object
+  
+     a is b -> False
+  
+  
+exersizes
+=========
+https://www.w3resource.com/python-exercises/list/
