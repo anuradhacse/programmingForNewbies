@@ -91,11 +91,46 @@ Translate the following statements into Python Boolean expressions and evaluate 
 Logical oprators
 =================
 and, or, not
+a = True
+b = False
+print(('a and b is',a and b))
+print(('a or b is',a or b))
+print(('not a is',not a))
 
+2 > 3 and 5>2 -> False 
+2 > 3 or 5>2 -> True
+not (3 < 4 ) -> False
 
-if else loop
---------------
+Control flow
+-------------
+1. sequential - what we already did
+2. selection - if else elif
+3. Repetition
+4. Subprogram ( functions )
+
+if 
+===
+if expression:
+     statement_1
+     statement_2
+     ...
+     statement_n
+     
+Exersize 1:
+
+marks = int(input('Enter your marks: '))
+if (marks > 50):
+     print("You passed the exam")
   
-exersizes
-=========
-https://www.w3resource.com/python-exercises/list/
+Exersize 2: 
+Develop a program which accepts a number (an amount of money to be paid by a customer
+in rupees) entered from the keyboard. If the amount is greater than or equal to 1,000 rupees, a 5%
+discount is given to the customer. Then display the final amount that the customer has to pay
+
+if else
+==========
+if expression:
+     statement(s)
+else:
+     statement(s)
+
