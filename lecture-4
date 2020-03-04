@@ -16,6 +16,11 @@ print (str.insert('H'))
 
 3. Python Objects
 
+Immutable objects and mutable objects
+
+     Immutable types: all numeric types (numbers), strings, tuples, range, bytes, frozenset
+     Mutable types: lists, dictionaries, bytearray, set, classes, class instances
+
      Object has following values 
      
      identity - an address in memory - id(a)
@@ -36,6 +41,22 @@ print (str.insert('H'))
   
      a is b -> False
   
+operators
+==========
+Logical
+and, or, not
+
+Assignment
+= += -+ *= /= %= **=
+
+comparison operations
+== != <> > < >= <=
+
+assignment operations
+= += -+ *= /= %= **=
+
+if else loop
+--------------
   
 exersizes
 =========
