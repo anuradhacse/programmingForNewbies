@@ -1,0 +1,63 @@
+Multiway selection - ELIF condition
+================
+
+if x>2 :
+  statement
+elif x>3:
+  statement
+else:
+  statement
+  
+ex: grading system (marks >= 74 --> A) using this method
+  
+Nested selection structure
+==================
+if expression_1:
+  statement(s)
+  if expression_2:
+    statement(s)
+  elif expression_3:
+    statement(s)
+  else:
+    statement(s)
+elif expression_4:
+  statement(s)
+else:
+  statement(s)
+
+
+Ex: max of two numbers
+    max of three numbers
+    Write program to check whether a number is negative, positive or zero.
+    Write a C program to check whether a number is divisible by 5 and 11 or not.
+    Write a C program to check whether a character is alphabet or not.
+    
+print('apple' == 'Apple')
+print('apple' > 'Apple')
+print('A unicode is', ord('A'), ',a unicode is', ord('a'))
+answers - https://codeforwin.org/2015/05/if-else-programming-practice.html
+
+Control flow Repetition - Loops 
+=================================
+for i in range(0,5):
+   print(i)
+   
+ range inbuilt funtion - will print 0,1,2,3,4
+ 
+ for i in range(start,stop,step):
+   print(i)
+   
+ if start is not given it will be zero
+ 
+ Ex:
+ for i in range(100,0,-10):
+   print(i)
+   
+ ex:
+ 
+sharks = ['hammerhead', 'great white', 'dogfish', 'frilled', 'bullhead', 'requiem']
+for shark in sharks:
+   print(shark)
+ 
+exersize: print squares of first 100 numbers
+    
