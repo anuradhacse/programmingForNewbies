@@ -103,9 +103,6 @@
     <type 'str'> (default type is string)
     can convert using int()
     
-    x = input ("age:")
-    <type 'int'>  - default type is int
-    
       Python 3 
     ===========
     
